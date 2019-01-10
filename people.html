@@ -1,0 +1,62 @@
+---
+layout: page
+title: People
+---
+<hr>
+
+<h2 class="center">Current</h2>
+
+{% for member in site.data.people %} {% if member.current == true %}
+
+<div class="profile-block">
+
+    {% if member.img %}
+    <img src="{{ member.img }}" style="border-radius: 50%; margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:100px !important">
+    {% endif %}
+
+    <h2>{{ member.name }}</h2>
+
+    <h4>{{ member.role }}</h4>
+
+    {% if member.github %}
+        <a href="http://github.com/{{member.github}}" target="_blank"><i class="fab fa-github"></i></a>
+    {% endif %}
+
+    {% if member.bio %} 
+    {{ member.bio }}
+    {% endif %}
+
+    <hr>
+
+</div>
+
+{% endif %}{% endfor %}
+
+<h2 class="center">Former</h2>
+
+{% for member in site.data.people %} {% if member.current == false %}
+
+<div class="profile-block">
+
+    {% if member.img %}
+    <img src="{{ member.img }}" style="border-radius: 50%; margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:100px !important">
+    {% endif %}
+
+    <h2>{{ member.name }}</h2>
+
+    <h4>{{ member.role }}</h4>
+
+    {% if member.github %}
+        <a href="http://github.com/{{member.github}}" target="_blank"><i class="fab fa-github"></i></a>
+    {% endif %}
+
+    {% if member.bio %} 
+    {{ member.bio }}
+    {% endif %}
+
+    <hr>
+
+</div>
+
+{% endif %}{% endfor %}
+

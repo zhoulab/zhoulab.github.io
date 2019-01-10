@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div>
+
+  {%- if page.title -%}
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  {%- endif -%}
+
+  <section>
+    {{ content }}
+  </section>
+
+  {%- if site.categories.papers.size > 0 -%}
+    <h4>Recent Publications</h4>
+    <ul class="list-unstyled">
+      {%- for pub in site.categories.papers -%}
+      <li>
+        <span class="text-muted">
+          {%- assign date_format = "%b %-d, %Y" -%}
+          {{ pub.date | date: date_format }}
+        </span>
+        <p class="h5">
+          <a href="{{ pub.url | relative_url }}">
+            {{ pub.title | escape }}
+          </a>
+        </p>
+        {%- if site.show_excerpts -%}
+          {{ pub.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+      <p>...<br><a href="/publications">more</a></p>
+      
+    </ul>
+  {%- endif -%}
+
+  {%- if site.openings.size > 0 -%}
+    <h4>Current Openings</h4>
+    <ul class="list-unstyled">
+      {%- for opening in site.openings -%}
+      <li>
+        <span class="text-muted">
+          {%- assign date_format = "%b %-d, %Y" -%}
+          {{ opening.date | date: date_format }}
+        </span>
+        <p class="h5">
+          <a href="{{ opening.url | relative_url }}">
+            {{ opening.title | escape }}
+          </a>
+        </p>
+        {%- if site.show_excerpts -%}
+          {{ opening.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+</div>

@@ -1,0 +1,21 @@
+title: Zhou Lab
+permalink: ':title'
+description: >-
+  Lab or Dr. Lei Zhou, University of Florida
+
+header_pages:
+  - protocols.html
+  - research.md
+  - papers/index.html
+  - people.html
+
+collections:
+  publications:
+    output: true
+  openings:
+    output: true
+  protocols:
+    output: true
+
+sass:
+  sass_dir: assets/css/scss

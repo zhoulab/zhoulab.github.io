@@ -1,0 +1,14 @@
+---
+layout: page
+title: Openings
+permalink: /openings/
+---
+
+{% assign items = site.openings %}
+{% for item in items %}
+<article class="item">
+  <div class="item-content">
+    <h2 class="item-title"><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></h2>
+  </div>
+</article>
+{% endfor %}

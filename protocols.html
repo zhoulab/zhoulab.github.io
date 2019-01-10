@@ -1,0 +1,14 @@
+---
+layout: page
+title: Protocols
+categories:
+ - protocols
+---
+
+{% for item in site.protocols %}
+<article class="item">
+  <div class="item-content">
+    <h3 class="item-title"><a href="{{item.url | prepend: site.baseurl}}">{{item.title}}</a></h3>
+  </div>
+</article>
+{% endfor %}

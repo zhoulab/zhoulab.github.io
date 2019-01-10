@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media">
+			<div class="media-body titlebox">
+				<h1 class="title media-heading">
+					{{ page.title }}
+				</h1>
+				<p>
+				<div class="smallhead">
+					{{ page.authors }}
+					{{ page.year }}.
+					{{ page.journal }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note">
+			{% if page.pdf %}
+			<div class="smallhead">
+				PDF
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="{{ page.pdf }}">{{ page.pdf | split: '/' | last }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+			{% if page.supplement %}
+			<div class="smallhead">
+				Supplement
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-paperclip fa-fw"></i>
+				<a class="off" href="{{ page.supplement }}">{{ page.supplement | split: '/' | last }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+			{% if page.doi %}
+			<h4>
+				DOI
+			</h4>
+			<div>
+				<i class="fas fa-external-link-alt"></i>
+				<a class="text-sm" href="http://dx.doi.org/{{ page.doi }}">{{ page.doi }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+			{% if page.github %}
+			<div class="smallhead">
+				GitHub
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-github-alt fa-fw"></i>
+				<a class="off" href="{{ page.github }}">{{ page.github | remove: 'http://github.com/' | remove: 'https://github.com/' }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
+		</div>
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+			{{ content }}
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
