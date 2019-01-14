@@ -6,7 +6,7 @@ categories:
 ---
 
 {% for paper in site.categories.papers %}
-    {% cycle: '<div class="row">', nil %}
+    {% cycle '<div class="row">', '' %}
         <div class="col-md-6 paperbox">
             <div class="media">
                 <a class="pull-right" href="{{ paper.url }}">
@@ -20,5 +20,5 @@ categories:
             <div class="bigspacer"></div>
             <div class="spacer"></div>
         </div>
-    {% cycle: nil, '</div>' %}
+    {% cycle '', '</div>' %}
 {% endfor %}
