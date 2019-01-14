@@ -2,13 +2,13 @@
 
 - name: Lei Zhou
   role: Professor
-  img: https://com-mgm.sites.medinfo.ufl.edu/files/2012/09/lzhou6.jpg
+  img: /assets/img/people/lei-zhou.jpg
   bio: Dr. Lei Zhou is currently a professor at the University of Florida. Lei earned a bachelor’s degree in Medicine at Beijing Medical University and later his Ph.D at the University of Massachusetts at Amherst.
   current: true
    
 - name: Victor Lin
   role: Programmer
-  img: https://avatars0.githubusercontent.com/u/13424970?s=460&v=4
+  img: /assets/img/people/victor-lin.jpg
   github: victorlin
   bio: Victor is an undergraduate Computer Science and Statistics student in his 4th year at the University of Florida. Victor has leveraged Python, R, and shell scripting to run analyses of data generated in the lab.
   url: https://victorl.in
@@ -16,7 +16,6 @@
   
 - name: Varsha Sundaresan
   role: Ph.D. Student
-  img: 
-  bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
-  url: http://mined.gatech.edu/
+  img: /assets/img/people/varsha-sundaresan.jpg
+  bio:
   current: false
