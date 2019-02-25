@@ -6,6 +6,21 @@
   bio: Dr. Lei Zhou is currently a professor at the University of Florida. Lei earned a bachelor’s degree in Medicine at Beijing Medical University and later his Ph.D at the University of Massachusetts at Amherst.
   url: http://mgm.ufl.edu/faculty/faculty-home-pages/zhou-lei/
   current: true
+
+- name: Haya Ghannouma
+  role: Research Technician and Lab Manager
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Ashley Gomez
+  role: Lab Safety Manager and Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Ye Yuan
+  role: Graduate Student
+  img: /assets/img/people/ye-yuan.jpg
+  current: true
    
 - name: Victor Lin
   role: Programmer
@@ -13,6 +28,63 @@
   github: victorlin
   bio: Victor is an undergraduate Computer Science and Statistics student in his 4th year at the University of Florida. Victor has leveraged Python, R, and shell scripting to run analyses of data generated in the lab.
   url: https://victorl.in
+  current: true
+
+- name: Alain Garcia
+  role: Programmer and Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  github: alaingarcia
+  bio: Alain is a third-year undergraduate student studying Computer Science and Sales Engineering. Alain is mainly involved in the human AAT project and managing the fly stock database. 
+  current: true
+
+- name: Alana O'Brien
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Cicely Conway
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Hassan Syed
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Nicole Pelletier
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/nicole-pelletier.jpg
+  current: true
+
+- name: Sandra Hegeman
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Cheyenne Hefler
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Deepali Singh
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Alyssa Cornista
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Erick Castro
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
+  current: true
+
+- name: Vanessa Toussaint
+  role: Undergraduate Research Assistant
+  img: /assets/img/people/default.jpg
   current: true
   
 - name: Varsha Sundaresan
