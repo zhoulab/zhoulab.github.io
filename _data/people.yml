@@ -12,6 +12,11 @@
   img: /assets/img/people/default.jpg
   current: true
 
+- name: Jasmine Ayers
+  role: Graduate Student
+  img: /assets/img/people/jasmine-ayers.jpg
+  current: true
+
 - name: Ashley Gomez
   role: Lab Safety Manager and Undergraduate Research Assistant
   img: /assets/img/people/default.jpg
@@ -34,7 +39,7 @@
   role: Programmer and Undergraduate Research Assistant
   img: /assets/img/people/default.jpg
   github: alaingarcia
-  bio: Alain is a third-year undergraduate student studying Computer Science and Sales Engineering. Alain is mainly involved in the human AAT project and managing the fly stock database. 
+  bio: Alain is a 3rd year undergraduate student studying Computer Science and Sales Engineering. Alain is mainly involved in the human AAT project and managing the fly stock database. 
   current: true
 
 - name: Alana O'Brien
